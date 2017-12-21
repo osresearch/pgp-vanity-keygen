@@ -147,7 +147,7 @@ int main(int argc, char** argv) {
     printf("[*] Searching for: 0x...");
     int i;
     for(i = 0; i < vlen; i++)
-        printf("%02x", vanity[i]);
+        printf("%c", vanity[i]);
     printf("\n");
 
     uint32_t limit; {
